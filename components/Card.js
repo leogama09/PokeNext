@@ -15,7 +15,7 @@ export default function Card({ pokemon }) {
                 <p className={styles.id}>#{pokemon.id}</p>
                 <h3 className={styles.title}>{pokemon.name}</h3>
             <Link legacyBehavior href={`/pokemon/${pokemon.id}`}>
-                <a className={styles.btn}>Detalhes</a>
+                <a className={styles.btn}>Details</a>
             </Link>
         </div>
     )
